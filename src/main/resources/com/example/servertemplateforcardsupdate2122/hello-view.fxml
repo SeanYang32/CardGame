@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane id="AnchorPane" prefHeight="850.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.servertemplateforcardsupdate2122.HelloController">
+    <children>
+        <Button fx:id="ready" layoutX="368.0" layoutY="266.0" onAction="#handleReady" text="Ready?" />
+        <Label layoutX="206.0" layoutY="603.0" text="message to send" />
+        <Button fx:id="connectButton" layoutX="29.0" layoutY="599.0" mnemonicParsing="false" onAction="#handleConnectButton" text="connect" />
+        <TextField fx:id="portTextField" layoutX="103.0" layoutY="599.0" prefHeight="25.0" prefWidth="81.0" text="2015" />
+        <Label layoutX="47.0" layoutY="568.0" text="Port" />
+        <TextField fx:id="sendTextField" layoutX="321.0" layoutY="599.0" />
+        <GridPane alignment="CENTER" gridLinesVisible="true" layoutX="103.0" layoutY="463.0" prefHeight="86.0" prefWidth="616.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="75.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <ImageView fx:id="imgS0" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                <ImageView fx:id="imgS1" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                <ImageView fx:id="imgS2" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+                <ImageView fx:id="imgS3" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+                <ImageView fx:id="imgS4" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+                <ImageView fx:id="imgS5" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+                <ImageView fx:id="imgS6" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+                <ImageView fx:id="imgS7" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="0" />
+                <ImageView fx:id="imgS8" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="0" />
+                <ImageView fx:id="imgS9" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="0" />
+            </children>
+        </GridPane>
+        <GridPane alignment="CENTER" gridLinesVisible="true" layoutX="103.0" layoutY="48.0" prefHeight="75.0" prefWidth="616.0">
+            <children>
+                <ImageView fx:id="imgC0" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="imgC1" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+                <ImageView fx:id="imgC2" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
+                <ImageView fx:id="imgC3" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" />
+                <ImageView fx:id="imgC4" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
+                <ImageView fx:id="imgC5" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" />
+                <ImageView fx:id="imgC6" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" />
+                <ImageView fx:id="imgC7" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" />
+                <ImageView fx:id="imgC8" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" />
+                <ImageView fx:id="imgC9" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" />
+            </children>
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="75.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+        </GridPane>
+        <Label fx:id="lblMessages" layoutX="151.0" layoutY="8.0" prefHeight="17.0" prefWidth="337.0" text="Messages will appear here..." />
+      <Button fx:id="deal" disable="true" layoutX="369.0" layoutY="318.0" mnemonicParsing="false" onAction="#handleDeal" text="Deal" />
+      <Button fx:id="draw" disable="true" layoutX="363.0" layoutY="366.0" mnemonicParsing="false" onAction="#handleDraw" text="draw from deck" />
+      <ImageView fx:id="imgDiscard" fitHeight="92.0" fitWidth="81.0" layoutX="488.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="button1" layoutX="118.0" layoutY="549.0" mnemonicParsing="false" onAction="#checkOne" text="Button" />
+      <Button fx:id="button2" layoutX="180.0" layoutY="549.0" mnemonicParsing="false" onAction="#checkTwo" text="Button" />
+      <Button fx:id="button3" layoutX="238.0" layoutY="549.0" mnemonicParsing="false" onAction="#checkThree" text="Button" />
+      <Button fx:id="button4" layoutX="295.0" layoutY="549.0" mnemonicParsing="false" onAction="#checkFour" text="Button" />
+      <Button fx:id="button5" layoutX="357.0" layoutY="549.0" mnemonicParsing="false" onAction="#checkFive" text="Button" />
+      <Button fx:id="button6" layoutX="413.0" layoutY="549.0" mnemonicParsing="false" onAction="#checkSix" text="Button" />
+      <Button fx:id="button7" layoutX="477.0" layoutY="549.0" mnemonicParsing="false" onAction="#checkSeven" text="Button" />
+      <Button fx:id="button8" layoutX="535.0" layoutY="549.0" mnemonicParsing="false" onAction="#checkEight" text="Button" />
+      <Button fx:id="button9" layoutX="600.0" layoutY="549.0" mnemonicParsing="false" onAction="#checkNine" text="Button" />
+      <Button fx:id="button10" layoutX="659.0" layoutY="549.0" mnemonicParsing="false" onAction="#checkTen" text="Button" />
+      <Label fx:id="reveal" layoutX="33.0" layoutY="640.0" />
+      <GridPane alignment="CENTER" gridLinesVisible="true" layoutX="105.0" layoutY="146.0" prefHeight="92.0" prefWidth="616.0">
+         <children>
+            <ImageView fx:id="imgB0" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgB1" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+            <ImageView fx:id="imgB2" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
+            <ImageView fx:id="imgB3" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" />
+            <ImageView fx:id="imgB4" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
+            <ImageView fx:id="imgB5" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" />
+            <ImageView fx:id="imgB6" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" />
+            <ImageView fx:id="imgB7" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" />
+            <ImageView fx:id="imgB8" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" />
+            <ImageView fx:id="imgB9" fitHeight="75.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="75.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <Button fx:id="computerButton" layoutX="11.0" layoutY="180.0" mnemonicParsing="false" onAction="#computerSim" text="Run Computer" />
+      <Button layoutX="369.0" layoutY="620.0" mnemonicParsing="false" text="blue" />
+      <Button layoutX="322.0" layoutY="620.0" mnemonicParsing="false" text="yellow" />
+      <Button layoutX="290.0" layoutY="620.0" mnemonicParsing="false" text="red" />
+      <Button layoutX="241.0" layoutY="620.0" mnemonicParsing="false" text="green" />
+
+    </children>
+</AnchorPane>
